@@ -1,5 +1,7 @@
 # Alura Challenge
+
+![Badge de Finalizado](https://img.shields.io/badge/finalizado-versión_0.1)
+
 ![Encriptador de Texto](https://github.com/matiasnm/aluraChallenge/blob/main/README.png)
-![Badge de Finalizado](https://img.shields.io/badge/finalizado-versión-1)
 ## Descripción del Proyecto
 Encryptador / Desencryptador de texto utilizando JavaScript con HTML y CSS responsivo.
