@@ -1,6 +1,6 @@
 # Alura Challenge
 
-![Badge de Finalizado](https://img.shields.io/badge/finalizado-v01)
+![Badge de Estado](https://img.shields.io/badge/estado-finalizado)
 
 ![Encriptador de Texto](https://github.com/matiasnm/aluraChallenge/blob/main/README.png)
 ## Descripción del Proyecto
