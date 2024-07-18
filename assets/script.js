@@ -4,9 +4,22 @@ let infoDiv = document.querySelector("#div-info");
 let outputDiv = document.querySelector("#div-output");
 let outputDivText = document.querySelector("#div-output-text");
 
+
+function filter(text) {
+    var regex = /^[a-z\s]+$/g;
+    if (!regex.test(text)) {
+        console.log("Input incorrecto!");
+        alert("No se admiten: mayúsculas, acentos o caracteres extraños!");
+        return " ";
+    } else {
+        return text;
+    }
+}
+
 function encrypt() {
     console.log("encrypt!");
     let text = input.value;
+    text = filter(text);
     let result = "";
     for (const char of text) {
         switch (char) {
@@ -36,7 +49,8 @@ function encrypt() {
 
 function decrypt() {
     console.log("decrypt!");
-    let text = input.value;
+    let text = input.value.toLowerCase();
+    text = filter(text);
     let result = "";
     result = text.replaceAll("ai","a");
     result = result.replaceAll("enter", "e");
